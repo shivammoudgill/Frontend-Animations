@@ -1,0 +1,46 @@
+.demo{
+	background-color: dodgerblue;
+	height: 300px;
+	width: 300px;
+	border-radius: 30px;
+	animation: 1.5s move;/*animation: time name;*/
+	animation-iteration-count: infinite;
+}
+@keyframes move{
+	0%{
+		transform: translate(0px,0px);
+		background-color: dodgerblue;
+	}
+	50%{
+		transform: translate(100px,0px);
+		background-color: red;
+	}
+	100%{
+		transform: translate(0px,0px);
+		background-color: dodgerblue;
+	}
+}
+.demo2{
+	background-color: dodgerblue;
+	height: 300px;
+	width: 300px;
+	border-radius: 30px;
+	margin-left: 100px;
+	margin-top: 5px;
+	animation: 1.5s move2;/*animation: time name;*/
+	animation-iteration-count: infinite;
+}
+@keyframes move2{
+	0%{
+		transform: translate(0px,0px);
+		background-color: dodgerblue;
+	}
+	50%{
+		transform: translate(-100px,0px);
+		background-color: red;
+	}
+	100%{
+		transform: translate(0px,0px);
+		background-color: dodgerblue;
+	}
+}

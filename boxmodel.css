@@ -1,0 +1,19 @@
+.demo{
+    background-color: #7777;
+    color: white;
+    /*padding: 10px;*/
+    padding: 10px 30px 30px 40px; /*top, right,bottom,left*/
+    border: 3px solid red;
+    margin: 30px;
+    margin-top: 18px;
+}
+/*diff ways of color
+name,hexadecimal value,RGB(),RGBA()
+*/
+button{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    cursor: progress;
+    padding: 12px 24px;
+}

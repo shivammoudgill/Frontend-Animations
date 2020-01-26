@@ -1,0 +1,8 @@
+.demo{
+	background-color: dodgerblue;
+	height: 300px;
+	width: 300px;
+	border-radius: 30px;
+	animation: 2s move;/*animation: time name;*/
+	animation-iteration-count: infinite;
+}
