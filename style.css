@@ -1,0 +1,13 @@
+p{
+    color: cornflowerblue;
+    font-size: 25px;
+    border-color: black;
+}
+body{
+    background: blue;
+}
+.meri{
+    text-align: center;
+    border-style: double;
+    border-radius: 50px; 
+}
